@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <!--Primary meta tags-->
+
+    <title>Mari Grills Menu</title>
+    <meta name="title" content="Mari Grills">
+    <meta name="description" content="A restarant focused on giving the customer 
+    an authentic dining experience">
+   
+    
+    <!--Google font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+    <!--External CSS Sheet-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--Preload images-->
+    <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+    <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+    <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+
+</head>
+
+
+<body>
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text"> Get hungry :)</p>
+</div> 
+
+<div class="topbar">
+
+    <div class="container">
+        <address class="topbar - item">
+            <div class="icon">
+                <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+            </div>
+            <span class="span">
+                Restaurant St, Cape town, Western Cape
+            </span>
+        </address>
+
+        <div class="separator"></div>
+
+        <div class="topbar-item item-2"></div>
+
+        <div class="icon">
+            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Daily : 8.00 am to 10.00 pm</span>
+    </div>
+
+    <a href="tel:+27608196816" class="topbar-item">
+        <div class="icon">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+        <span class="span">+27 60 819 6816</span>
+    </a>
+
+    <div class="separator"></div>
+
+    <a href="mail:booking@mari.com" class="topbar-item">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+        <span class="span">booking@mari.com</span>
+    </a>
+
+</div>
+
+<!--Header-->
+<header class="header" data-header>
+
+    <div class="container">
+
+        <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="160" height="50" alt = "Mari - Home">
+        </a>
+
+        <!--Navigation bar-->
+        <nav class="navbar" data-navbar>
+            <button class ="close-btn" aria-label="close menu" data-nav-toggler>
+                <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <a href="#" class="logo">
+                <img src="./assets/images/logo.png" width="160" height="50" alt = "Mari - Home">
+            </a>
+
+
+        <!--Navigation bar items-->
+        <ul class = "navbar-list">
+            <li class="navbar-item">
+                <a href="index.html" class="navbar-link hover underline ">
+                    <div class="separator"></div>
+                    <span class="span">Home</span>
+                </a>
+            </li>
+
+            <li class="navbar-item">
+                <a href="Menu.html" class="navbar-link hover underline">
+                    <div class="separator"></div>
+                    <span class="span">Menus</span>
+                </a>
+            </li>
+
+            <li class="navbar-item">
+                <a href="About.html" class="navbar-link hover underline">
+                    <div class="separator"></div>
+                    <span class="span">About Us</span>
+                </a>
+            </li>
+
+            <li class="navbar-item">
+                <a href="booking.html" class="navbar-link hover underline">
+                    <div class="separator"></div>
+                    <span class="span">Booking</span>
+                </a>
+            </li>
+
+          
+        </ul>
+
+        <!--Contact Details-->
+        <div class="text-center">
+           <p class="headline-1 navbar-title">Visit us</p> 
+           <address class="body-4">
+            Restaurant St, Cape town, <br>
+            Western Cape 7550, South Africa
+           </address>
+
+           <p class="body-4 navbar-text">Daily: 9:00am - 10pm</p>
+
+           <a href="#mail:booking@mari.com" class="body-4 sidebar-link">booking@mari.com</a>
+
+           <div class="separator"></div>
+
+           <p class="contact-label">Booking Request</p>
+            <span class = "contact-number">+27-60-819-6816</span>
+                
+            
+           
+        </div>
+
+
+
+        </nav>
+
+        <a href="#" class="btn btn-secondary">
+            <span class="span text-1">Find A Table</span>
+
+            <span class="span text-2" aria-hidden="true">Find A Table</span>
+        </a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>     
+        </button>
+
+        <div class="overlay active" data-nav-toggler data-overlay></div>
+        
+    </div>
+</header>
+
+
+
+<section class="section menu" aria-label="menu-label" id="menu">
+<div class="container">
+
+<p class="section-subtitle text-center label-2"> Special Selection </p>
+
+<h2 class="headline-1 section-title text-center">Delicious Menu</h2>
+
+<ul class="grid-list">
+    
+ 
+    
+  <li>
+    <div class="menu-card hover:card">
+        <figure class="card-banner img-holder">
+          <img src="/assets/images/menu-3.jpg"  loading="lazy" alt="lamb" class="img-cover"> 
+        </figure>
+      
+        <div>
+      <div class="title-wrapper">
+          <h3 class="title-3">
+              <a href="#" class="crad-title">lamb Dish</a>
+          </h3>
+          <span class="badge label-1">Seasonal</span>
+  
+          <span class="span title-2">R120.00</span>
+  
+          <p class="card-text label-1">
+              Greens, Mashed Potatoes, lamb, tomato sauce, seasonings and spices
+          </p>
+  
+  
+      </div>
+  </li>
+    
+  <li>
+    <div class="menu-card hover:card">
+        <figure class="card-banner img-holder" >
+          <img src="/assets/images/menu-4.jpg" loading="lazy" alt="Ribs" class="img-cover"> 
+        </figure>
+      
+        <div>
+      <div class="title-wrapper">
+          <h3 class="title-3">
+              <a href="#" class="crad-title">Ribs & fries</a>
+          </h3>
+          <span class="badge label-1">Seasonal</span>
+  
+          <span class="span title-2">R120.00</span>
+  
+          <p class="card-text label-1">
+              Fries, Colelaw and Pork Ribs
+          </p>
+  
+  
+      </div>
+  </li>
+
+  <li>
+    <div class="menu-card hover:card">
+        <figure class="card-banner img-holder" >
+          <img src="/assets/images/Special Dish.jpg"  loading="lazy" alt="Pop Chicken" class="img-cover"> 
+        </figure>
+      
+        <div>
+      <div class="title-wrapper">
+          <h3 class="title-3">
+              <a href="#" class="crad-title">Pop Chicken</a>
+          </h3>
+          <span class="badge label-1">Seasonal</span>
+  
+          <span class="span title-2">R95.00</span>
+  
+          <p class="card-text label-1">
+              Chicken and Mint
+          </p>
+  
+  
+      </div>
+  </li>
+
+  <li>
+    <div class="menu-card hover:card">
+        <figure class="card-banner img-holder" style="--width:100 ; --height:100 ;">
+          <img src="/assets/images/menu-6.jpg"  loading="lazy" alt="Chicken" class="img-cover"> 
+        </figure>
+      
+        <div>
+      <div class="title-wrapper">
+          <h3 class="title-3">
+              <a href="#" class="crad-title">Grilled Chicken</a>
+          </h3>
+          <span class="badge label-1">Seasonal</span>
+  
+          <span class="span title-2">R90.00</span>
+  
+          <p class="card-text label-1">
+              Chicken,Vegetables and Rice
+          </p>
+
+          
+  
+      </div>
+  </li>
+
+</ul>
+
+<p class="menu-text text-center">
+    Open daily from <span class="span">9:00 am</span> to <span class="span">9:00 pm</span>
+  </p>
+  
+  <a href="index.html" class="btn btn-primary">
+    <span class="text text-1">Back to home</span>
+    <span class="text text-2" aria-hidden="true">Back to home</span>
+  </a>
+
+  <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+class="shape shape-2 move-anim">
+<img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+class="shape shape-3 move-anim">
+
+</div>
+    
+</section>
+
+<footer class="footer section has-bg-image text-center" style="background-image: url(/assets/images/footer-bg.jpg);">
+  <div class="container">
+
+<div class="footer-top grid-list">
+
+<div class="footer-brand has-before has-after">
+  <a href="#" class="logo">
+      <img src="/assets/images/logo.png" width="160" height="50"  loading="lazy" alt="Mari Home">
+  </a>
+
+  <address class="body-4">
+      Restaurant St, Cape town, Western Cape
+  </address>
+  
+  <a href="mailto:booking@mari.com" class="body-4 contact-link">booking@mari.com</a>
+  
+  <a href="tel:+27608196816" class="body-4 contact-link">Booking Request:+27-60-819-6816</a>
+
+  <p class="body-4">
+      Open : 08:00am- 10:00pm
+  </p>
+
+  <div class="wrapper">
+      <div class="seperator"></div>
+      <div class="seperator"></div>
+      <div class="seperator"></div>
+  </div>
+
+  <p class="title-1">Get News & Offers</p>
+
+  <p class="label-1">
+      Subscribe to us and Get <span class="span">25% Off</span>
+  </p>
+  <form action="" class="input-wrapper">
+      <div class="icon-wrapper">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+          <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+
+      </div>
+      <button type="submit" class="btn btn-secondary">
+          <span class="text text-1">Subscribe</span>
+          <span class="text text-2" aria-hidden="true">Subscribe</span>
+      </button>
+  </form>
+</div>
+
+
+
+<ul class="footer-list">
+  <li>
+      <a href="https://www.facebook.com/" class="label-2 footer-link hover-underline">Facebook</a>
+  </li>
+  <li>
+      <a href="https://www.instagram.com/" class="label-2 footer-link hover-underline">Instagram</a>
+  </li>
+  <li>
+      <a href="https://x.com/?lang=en-za" class="label-2 footer-link hover-underline">Twitter</a>
+  </li>
+  <li>
+      <a href="https://www.youtube.com/" class="label-2 footer-link hover-underline">Youtube</a>
+  </li>
+
+  <li>
+      <a href="https://www.google.co.za/maps" class="label-2 footer-link hover-underline">Google Map</a>
+  </li>
+</ul>
+</div>
+
+<div class="footer-bottom">
+  <p class="copyright">
+      2024 Mari. All Rights Reserved
+  </p>
+</div>
+  </div>
+
+</footer>
+
+<script src="./assets/js/script.js"></script>
+<!--Ion icon link-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
